@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="exampleApp">
+<head>
+    <meta charset="utf-8">
+    <title>Fest</title>
+    <!-- Example for relative path -->
+    <link rel="stylesheet" type="text/css" href="css/example-style.css">
+    <!-- Example for absolute path -->
+    <link rel="stylesheet" type="text/css" href="/shared/css/scroll-to-top.css">
+    <script src="/shared/js/scroll-to-top.js"></script>
+    <script src="/shared/js/angular.min.js"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/navigation-bar/navigation-bar.module.js"></script>
+    <script src="app/navigation-bar/navigation-bar.component.js"></script>
+    <script src="app/image-list/image-list.module.js"></script>
+    <script src="app/image-list/image-list.component.js"></script>
+    <script src="app/size-list/size-list.module.js"></script>
+    <script src="app/size-list/size-list.component.js"></script>
+    <script src="app/aviv-list/aviv-list.module.js"></script>
+    <script src="app/aviv-list/aviv-list.component.js"></script>
+    <script src="app/news-feed/news-feed.module.js"></script>
+    <script src="app/news-feed/news-feed.component.js"></script>
+    <script src="app/news-article/news-article.module.js"></script>
+    <script src="app/news-article/news-article.component.js"></script>
+</head>
+
+<body >
+   
+<button onclick="topFunction()" id="scrollToTopButton" title="Go to top">^</button>
+<navigation-bar></navigation-bar>
+<main class="full-height">
+        <news-feed></news-feed>
+</main>
+</body>
+</html>

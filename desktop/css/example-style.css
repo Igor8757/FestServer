@@ -1,0 +1,45 @@
+/* 
+	Import example 
+	Notice how the path begins from the same directory example-style.css is in.
+*/
+@import 'columns.css';
+@import 'nav.css';
+
+html, body, main {
+	height: 100%;
+	margin: 0;
+	overflow-y: hidden; 
+
+}
+
+body {
+	background-image: url(/shared/images/a3169253407_10.jpg);
+	background-repeat:repeat;
+	background-attachment:fixed;
+	background-size: 100% 100%;
+}
+.full-height {
+	height: 100%;
+  }
+
+.news-feed {
+	padding: 10px;
+	background: rgba(70, 70, 70, 0.705);
+	margin: auto;
+	width: 60%;
+	height: 100%;
+	overflow-y: scroll; 
+}
+
+.news-article {
+	padding: 0 20px 0 20px;
+}
+
+.news-article h3 {
+	text-align: center;
+	color: rgb(255, 195, 85)
+}
+
+.news-article p {
+	color: rgb(255, 255, 255)
+}
