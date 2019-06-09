@@ -1,14 +1,8 @@
 <div class="feed">
-    <news-article></news-article>
-    <news-article></news-article>
-    <news-article></news-article>
-    <news-article></news-article>
-    <news-article></news-article>
-    <news-article></news-article>
-    <news-article></news-article>
-    <news-article></news-article>
-    <news-article></news-article>
-    <news-article></news-article>
-    <news-article></news-article>
-    <news-article></news-article>
+        <div class="news-article" ng-repeat="item in $ctrl.list">
+            <h3>{{item.title}}</h3>
+            <p>{{item.content}}
+            </p>
+            <hr>
+        </div>
 </div>

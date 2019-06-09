@@ -4,6 +4,7 @@
 */
 @import 'columns.css';
 @import 'nav.css';
+@import 'buy-form.css';
 
 html, body, main {
 	height: 100%;
@@ -27,7 +28,7 @@ body {
 	background: rgba(70, 70, 70, 0.705);
 	margin: auto;
 	width: 60%;
-	height: 100%;
+	height: 91.5%;
 	overflow-y: scroll; 
 }
 
@@ -35,11 +36,35 @@ body {
 	padding: 0 20px 0 20px;
 }
 
-.news-article h3 {
+h3 {
 	text-align: center;
 	color: rgb(255, 195, 85)
 }
 
-.news-article p {
+p {
 	color: rgb(255, 255, 255)
+}
+
+.grid {
+	margin: auto;
+	width: 75%;
+	height: 60%;
+	display: grid;
+	grid-gap: 2.2rem;
+	grid-template-columns:  repeat(3, 32%);
+	grid-template-rows: repeat(3, 30%);
+}
+.gridblock {
+	display: block;
+	position: relative;
+	float: left;
+	padding: 20px;
+}
+
+.youtube-video {
+	margin: auto;
+	display:block;
+	width: 60%;
+	height: 30em;
+	padding-bottom: 10px;
 }

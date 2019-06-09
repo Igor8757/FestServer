@@ -1,94 +1,137 @@
 # The data for your website
 
 data = {
-    # Example of a collection
-    "dogs": [
+  "news": [
+    {
+      "title": "News 1",
+      "content": """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."""
+    },
+    {
+      "title": "News 2",
+      "content": """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."""
+    },
+    {
+      "title": "News 3",
+      "content": """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."""
+    },
+    {
+      "title": "News 4",
+      "content": """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."""
+    },
+    {
+      "title": "News 5",
+      "content": """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."""
+    },
+    {
+      "title": "News 6",
+      "content": """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."""
+    },
+    {
+      "title": "News 7",
+      "content": """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."""
+    },
+    {
+      "title": "News 8",
+      "content": """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."""
+    }
+  ],
+  "about": [
+    {
+      "content": """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""",
+      "youtubeURL": "https://www.youtube.com/embed/jbixaaxeKt0"
+    }
+  ],
+  "sponsors": [
+    {
+      "name": "Sponsor Name 1",
+      "imageURL": "/shared/images/sponsor.jpg"
+    },
+    {
+      "name": "Sponsor Name 2",
+      "imageURL": "/shared/images/sponsor.jpg"
+    },
+    {
+      "name": "Sponsor Name 3",
+      "imageURL": "/shared/images/sponsor.jpg"
+    },
+    {
+      "name": "Sponsor Name 4",
+      "imageURL": "/shared/images/sponsor.jpg"
+    },
+    {
+      "name": "Sponsor Name 5",
+      "imageURL": "/shared/images/sponsor.jpg"
+    },
+    {
+      "name": "Sponsor Name 6",
+      "imageURL": "/shared/images/sponsor.jpg"
+    }
+  ],
+  "bands": [
         {
-            "size": 'small',
-            "name": 'Welsh Corgi',
-            'snippet': "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                       "Duis sed ultricies lectus, et porttitor diam. Vivamus viverra tincidunt sagittis. "
-                       "Fusce pellentesque nibh a convallis eleifend. Ut malesuada, justo a sodales accumsan, "
-                       "magna purus vehicula lorem, a tincidunt justo odio vitae leo. Nulla a enim at metus ultrices "
-                       "mollis. Donec scelerisque, metus non volutpat finibus, ligula justo sollicitudin nisl, "
-                       "sit amet rutrum lorem felis eu orci. Sed dictum dignissim sapien, quis sodales dolor vehicula "
-                       "sit amet. Etiam tempus felis turpis, sit amet vehicula ante tincidunt at. Integer ligula mi, "
-                       "lobortis a hendrerit et, posuere id elit. Donec pellentesque nisl id vestibulum porttitor."
-                       "Phasellus vel felis rhoncus, vehicula nisl in, eleifend orci. Cras tellus nibh, semper nec mi "
-                       "eget, interdum vehicula ante. In sed ultrices erat, vitae dictum magna. Mauris id porttitor "
-                       "diam. Curabitur ut vehicula mi. Sed tempor felis nec est semper facilisis. Nunc a enim a "
-                       "lectus placerat feugiat. Maecenas ante risus, sollicitudin nec ligula eget, luctus mollis "
-                       "lorem."
-                       "Curabitur aliquam, leo id venenatis posuere, leo ex condimentum augue, quis iaculis "
-                       "elit nunc non sapien. Mauris id nunc aliquam, imperdiet diam ac, viverra ante. Praesent "
-                       "hendrerit neque et nisi tincidunt, mattis ultrices eros mollis. Etiam auctor facilisis felis, "
-                       "et commodo.",
-            'imageUrl': '/shared/images/corgi.jpg'
+          "name": "Band Name 1",
+          "imageURL": "/shared/images/band.jpg"
         },
         {
-            "size": 'small',
-            "name": 'Cavalier King Charles Spaniel',
-            'snippet': "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                       "Duis sed ultricies lectus, et porttitor diam. Vivamus viverra tincidunt sagittis. "
-                       "Fusce pellentesque nibh a convallis eleifend. Ut malesuada, justo a sodales accumsan, "
-                       "magna purus vehicula lorem, a tincidunt justo odio vitae leo. Nulla a enim at metus ultrices "
-                       "mollis. Donec scelerisque, metus non volutpat finibus, ligula justo sollicitudin nisl, "
-                       "sit amet rutrum lorem felis eu orci. Sed dictum dignissim sapien, quis sodales dolor vehicula "
-                       "sit amet. Etiam tempus felis turpis, sit amet vehicula ante tincidunt at. Integer ligula mi, "
-                       "lobortis a hendrerit et, posuere id elit. Donec pellentesque nisl id vestibulum porttitor."
-                       "Phasellus vel felis rhoncus, vehicula nisl in, eleifend orci. Cras tellus nibh, semper nec mi "
-                       "eget, interdum vehicula ante. In sed ultrices erat, vitae dictum magna. Mauris id porttitor "
-                       "diam. Curabitur ut vehicula mi. Sed tempor felis nec est semper facilisis. Nunc a enim a "
-                       "lectus placerat feugiat. Maecenas ante risus, sollicitudin nec ligula eget, luctus mollis "
-                       "lorem."
-                       "Curabitur aliquam, leo id venenatis posuere, leo ex condimentum augue, quis iaculis "
-                       "elit nunc non sapien. Mauris id nunc aliquam, imperdiet diam ac, viverra ante. Praesent "
-                       "hendrerit neque et nisi tincidunt, mattis ultrices eros mollis. Etiam auctor facilisis felis, "
-                       "et commodo.",
-            'imageUrl': '/shared/images/cavalier.jpg'
+          "name": "Band Name 2",
+          "imageURL": "/shared/images/band.jpg"
         },
         {
-            "size": 'medium',
-            "name": 'Australian Shepherd',
-            'snippet': "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-                       "Duis sed ultricies lectus, et porttitor diam. Vivamus viverra tincidunt sagittis. "
-                       "Fusce pellentesque nibh a convallis eleifend. Ut malesuada, justo a sodales accumsan, "
-                       "magna purus vehicula lorem, a tincidunt justo odio vitae leo. Nulla a enim at metus ultrices "
-                       "mollis. Donec scelerisque, metus non volutpat finibus, ligula justo sollicitudin nisl, "
-                       "sit amet rutrum lorem felis eu orci. Sed dictum dignissim sapien, quis sodales dolor vehicula "
-                       "sit amet. Etiam tempus felis turpis, sit amet vehicula ante tincidunt at. Integer ligula mi, "
-                       "lobortis a hendrerit et, posuere id elit. Donec pellentesque nisl id vestibulum porttitor."
-                       "Phasellus vel felis rhoncus, vehicula nisl in, eleifend orci. Cras tellus nibh, semper nec mi "
-                       "eget, interdum vehicula ante. In sed ultrices erat, vitae dictum magna. Mauris id porttitor "
-                       "diam. Curabitur ut vehicula mi. Sed tempor felis nec est semper facilisis. Nunc a enim a "
-                       "lectus placerat feugiat. Maecenas ante risus, sollicitudin nec ligula eget, luctus mollis "
-                       "lorem."
-                       "Curabitur aliquam, leo id venenatis posuere, leo ex condimentum augue, quis iaculis "
-                       "elit nunc non sapien. Mauris id nunc aliquam, imperdiet diam ac, viverra ante. Praesent "
-                       "hendrerit neque et nisi tincidunt, mattis ultrices eros mollis. Etiam auctor facilisis felis, "
-                       "et commodo.",
-            'imageUrl': '/shared/images/aussi.jpg'
+          "name": "Band Name 3",
+          "imageURL": "/shared/images/band.jpg"
         },
-    ],
-    "images": [
-      {"url": '/shared/images/corgi.jpg'},
-      {"url": '/shared/images/cavalier.jpg'},
-      {"url": '/shared/images/aussi.jpg'},
-      {"url": '/shared/images/corgi.jpg'},
-      {"url": '/shared/images/cavalier.jpg'},
-      {"url": '/shared/images/aussi.jpg'},
-    ],
-    "sizes":[
-      {"name": "small", "toString":"Small"},
-      {"name": "medium", "toString":"Medium"},
-      {"name": "big", "toString":"Big"},
-    ],
-    "cities":[
-      {"id":"telAviv", "toString": "Tel Aviv xoxo"},
-      {"id":"2", "toString":"Haifa"}
-    ],
-    "days": [0, 1, 2],
-    "hours": [[1, 2, 3, 4], [2, 3, 4], [3, 4]]
+        {
+          "name": "Band Name 4",
+          "imageURL": "/shared/images/band.jpg"
+        },
+        {
+          "name": "Band Name 5",
+          "imageURL": "/shared/images/band.jpg"
+        },
+        {
+          "name": "Band Name 6",
+          "imageURL": "/shared/images/band.jpg"
+        },
+        {
+          "name": "Band Name 7",
+          "imageURL": "/shared/images/band.jpg"
+        },
+        {
+          "name": "Band Name 8",
+          "imageURL": "/shared/images/band.jpg"
+        },
+        {
+          "name": "Band Name 9",
+          "imageURL": "/shared/images/band.jpg"
+        }
+      ]
 }
 
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html ng-app="exampleApp">
+<html ng-app="ticketPage">
 <head>
     <meta charset="utf-8">
     <title>Tickets</title>
@@ -12,10 +12,8 @@
     <script src="app/app.module.js"></script>
     <script src="app/navigation-bar/navigation-bar.module.js"></script>
     <script src="app/navigation-bar/navigation-bar.component.js"></script>
-    <script src="app/news-feed/news-feed.module.js"></script>
-    <script src="app/news-feed/news-feed.component.js"></script>
-    <script src="app/news-article/news-article.module.js"></script>
-    <script src="app/news-article/news-article.component.js"></script>
+    <script src="app/buy-form/buy-form.module.js"></script>
+    <script src="app/buy-form/buy-form.component.js"></script>
 </head>
 
 <body >
@@ -23,6 +21,7 @@
 <button onclick="topFunction()" id="scrollToTopButton" title="Go to top">^</button>
 <navigation-bar></navigation-bar>
 <main class="full-height">
+    <buy-form></buy-form>
 </main>
 </body>
 </html>
