@@ -14,22 +14,15 @@
                           <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
                           <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
                         </div>
-
+                                                    
                         <div class="col-50">
-                            <h3>Number of Tickets</h3>
-                            <input type="number" id="tickets" name="quantity" min="1" placeholder="1">
-                        </div>
-                        
-              
-                        <div class="col-50">
-                          <h3>Payment</h3>
-                          <label for="cname">Name on Card</label>
-                          <input type="text" id="cname" name="cardname" placeholder="John More Doe">
-                          <label for="ccnum">Credit card number</label>
-                          <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-                                        
+                          <h3>Payment</h3>                                        
                           <div class="row">
                             <div class="col-50">
+                                <label for="cname">Name on Card</label>
+                                <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                                <label for="ccnum">Credit card number</label>
+                                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
                                 <label for="expmonth">Exp Month</label>
                                 <select>
                                     <option value="1">January</option>
@@ -56,25 +49,14 @@
                         </div>
               
                       </div>
-                      <label>
-                        <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
-                      </label>
                     </form>
-                    <div class="col-25">
-                            <div class="container">
-                              <hr>
-                              <p>Total <span class="price" style="color:black"><b name="price"></b></span></p>
-                            </div>
-                          </div>
-                          <input type="submit" value="Continue to checkout" class="btn">
                     <script>
-                            let form = document.forms.buy;
-                            form.tickets.oninput = calculate;
-                            function calculate() {
-                                document.getElementById('price').innerHTML = ' ' + form.tickets.value + '$';
-                            }
-                            calculate ();
-                        </script>
+                     
+                    </script>    
+                    <div class="col-25">
+                        <total-price></total-price>
+                    </div>
+                    <input type="submit" value="Continue to checkout" class="btn">
                   </div>
                 </div>
               

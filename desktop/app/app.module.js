@@ -11,5 +11,5 @@ angular.module('bandsPage', [
 ]);
 
 angular.module('ticketPage', [
-  'navigationBar', 'buyForm'
+  'navigationBar', 'buyForm', 'totalPrice'
 ]);
