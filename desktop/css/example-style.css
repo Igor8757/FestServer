@@ -28,7 +28,7 @@ body {
 	background: rgba(70, 70, 70, 0.705);
 	margin: auto;
 	width: 60%;
-	height: 91.5%;
+	height: 87.5%;
 	overflow-y: scroll; 
 }
 
@@ -52,7 +52,7 @@ p {
 	display: grid;
 	grid-gap: 2.2rem;
 	grid-template-columns:  repeat(3, 32%);
-	grid-template-rows: repeat(3, 30%);
+	grid-template-rows: repeat(3, 45%);
 }
 .gridblock {
 	display: block;
