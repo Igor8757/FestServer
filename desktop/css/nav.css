@@ -1,6 +1,6 @@
 .topnav {
     position: relative;
-    height: 74px;
+    height: 80px;
     background-color: #333;
     overflow: hidden;
 }
@@ -9,14 +9,15 @@
   
 .topnav a {
 float: left;
-color: rgb(255, 195, 85);
+color: #ffc355;
 line-height: 40px;
 height: 100%;
 text-align: center;
 vertical-align: middle;
 padding: 15px 15px;
 text-decoration: none;
-font-size: 25px;
+font-size: 2em;
+font-family: "Trebuchet MS";
 }
 
 .topnav a:hover {
@@ -47,13 +48,14 @@ float: right;
     float: left;
     font-size: 2em;
     color: rgb(255, 195, 85);
-    line-height: 10px;
+    line-height: 0.125em;
     height: 100%;
     text-align: center;
     vertical-align: middle;
     padding: 15px 40px;
     text-decoration: none;
-    
+    font-family: "Trebuchet MS";
+
 }
 
 @media screen and (max-width: 600px) {

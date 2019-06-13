@@ -38,11 +38,14 @@ body {
 
 h3 {
 	text-align: center;
-	color: rgb(255, 195, 85)
+	color: rgb(255, 195, 85);
+	font-family: Verdana;
 }
 
 p {
-	color: rgb(255, 255, 255)
+	color: rgb(255, 255, 255);
+	font-family: Verdana;
+
 }
 
 .grid {
