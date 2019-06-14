@@ -39,6 +39,7 @@ h3 {
 	text-align: center;
 	color: rgb(255, 195, 85);
 	font-family: Verdana;
+	font-size: 80%;
 }
 
 p {
@@ -49,19 +50,24 @@ p {
 
 .grid {
 	margin: auto;
-	width: 75%;
+	width: 85%;
 	height: 60%;
 	display: grid;
 	grid-gap: 2.2rem;
-	grid-template-columns:  repeat(3, 32%);
-	grid-template-rows: repeat(3, 45%);
+	grid-template-columns:  repeat(1, 100%);
+	grid-template-rows: repeat(10, 45%);
+	text-align: center;
 }
 .gridblock {
 	display: block;
 	position: relative;
-	float: left;
 	padding: 10px;
-	max-width: 30%;
+	text-align: center;
+}
+
+.gridblock h3 {
+	text-align: center;
+	display: block;
 }
 
 .youtube-video {
