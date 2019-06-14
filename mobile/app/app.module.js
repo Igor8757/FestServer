@@ -1,15 +1,15 @@
 angular.module('homePage', [
-  'navigationBar', 'newsFeed'
+  'navigationBar', 'bottomBar', 'hamburgerMenu', 'newsFeed'
 ]);
 
 angular.module('aboutPage', [
-  'navigationBar', 'aboutFeed'
+  'navigationBar', 'bottomBar', 'hamburgerMenu', 'aboutFeed'
 ]);
 
 angular.module('bandsPage', [
-  'navigationBar', 'bandsFeed'
+  'navigationBar', 'bottomBar', 'hamburgerMenu', 'bandsFeed'
 ]);
 
 angular.module('ticketPage', [
-  'navigationBar', 'buyForm', 'totalPrice'
+  'navigationBar', 'bottomBar', 'hamburgerMenu', 'buyForm', 'totalPrice'
 ]);

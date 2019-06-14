@@ -1,6 +1,8 @@
+@import 'hamburger-menu.css';
+
 .topnav {
     position: relative;
-    height: 80px;
+    height: 10%;
     background-color: #333;
     overflow: hidden;
 }
@@ -30,11 +32,20 @@ background-color: #4CAF50;
 color: white;
 }
 
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 .topnav-centered img {
 float: none;
 position: absolute;
 top: 50%;
 left: 50%;
+max-height: 85%;
 transform: translate(-50%, -50%);
 }
 
@@ -44,15 +55,14 @@ float: right;
 
 }
 
-.countdown {
+.countdown-bottom {
+    color: rgb(255, 255, 255);
     float: left;
-    font-size: 2em;
-    color: rgb(255, 195, 85);
+    font-size: 1.5em;
     line-height: 0.125em;
     height: 100%;
     text-align: center;
     vertical-align: middle;
-    padding: 15px 40px;
     text-decoration: none;
     font-family: "Trebuchet MS";
 
@@ -70,4 +80,27 @@ float: right;
     left: 0;
     transform: none;
 }
+}
+
+.bottombar {
+    height: 8%;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottombar-center h1 {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.hamburger-menu {
+    display: inline-block;
 }

@@ -1,1 +1,1 @@
-angular.module('navigationBar', []);
+angular.module('navigationBar', ['hamburgerMenu']);
